@@ -1,0 +1,7 @@
+import pandas as pd
+
+Nombre_de_Usuario = input()
+
+df = pd.read_csv(Nombre_de_Usuario +'.csv')
+
+print(df)
